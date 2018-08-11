@@ -1,0 +1,430 @@
+h1{
+	font-size:24px;
+	color:#000;
+	font-family: 'Varela Round', sans-serif;
+	margin:10px;
+}
+h2{
+	font-size:18px;
+	color:#000;
+	font-family: 'Varela Round', sans-serif;
+}
+.bajo-banner{
+	margin:10px;
+}
+h3{
+	font-size:14px;
+	color:#000;
+	font-family: 'Varela Round', sans-serif;
+	margin:10px;
+}
+/*.bajada-titulo{
+	margin:0px 0px 10px 10px;
+}*/
+p{
+	font-size:12px;
+	color:#333;
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+a{
+	font-size:15px;
+	color:#009;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:italic;
+}
+body{
+	background-color:#464646;
+}
+		
+.content{
+	width:960px;
+	height:auto;
+	margin:0 auto;
+	background-color:#FFF;
+}
+/* Estilo para el SLIDER */
+#s3slider {
+    width: 950px; /* important to be same as image width */
+    height: 350px; /* important to be same as image height */
+    position: relative; /* important */
+    overflow: hidden; /* important */
+}
+ 
+#s3sliderContent {
+    width: 940px; /* important to be same as image width or wider */
+    position: absolute; /* important */
+    top: 0; /* important */
+    margin-left: 0; /* important */
+	padding-left:0px;
+	margin-left:10px;
+}
+ 
+.s3sliderImage {
+    float: left; /* important */
+    position: relative; /* important */
+    display: none; /* important */
+	height:334px;
+}
+ 
+.s3sliderImage span {
+    position: absolute; /* important */
+    left: 0;
+    font: 10px/15px Arial, Helvetica, sans-serif;
+    padding: 10px 13px;
+    width: 940px;
+    background: rgba(25,25,25,0.8);
+    /*filter: alpha(opacity=70); 
+    -moz-opacity: 0.7; 
+    -khtml-opacity: 0.7; 
+    opacity: 0.7; 
+	( Filtro de Opacidad) */
+    color: #fff;
+    display: none; /* important */
+    /*top: 0; (coloca el franja de detalle del slide , titulo arriba)*/
+	bottom:0;
+	 /*
+        if you put top: 0;  -> the box with text will be shown 
+                                at the top of the image
+        if you put bottom: 0;  -> the box with text will be shown 
+                                at the bottom of the image
+    */
+}
+ 
+.clear {
+    clear: both;
+}
+/* Estilo SLIDER*/
+.detalles{
+	background-color:#0072ff;
+	padding:5px 10px 5px 10px;
+	color:#fff;
+	font-weight:bold;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	
+}
+#head{
+	width:100%;
+	height:55px;
+	background-color:#CCC;
+}
+.logo{
+	width:160px;
+	height:40px;
+	margin-top:7px;
+	margin-left: 10px;
+	float:left;
+	display:inline-block;
+	background-image:url(../img/logodeva1.png);
+	background-repeat:no-repeat;
+	
+}
+.redes{
+    width:auto;
+	height:30px;
+	float:right;
+	margin-top:7px;
+	display:inline-block;
+	margin:10px 10px 5px 0px;
+	padding:0px;
+	list-style:none;
+	
+}
+.redes li{
+	float:left;
+	margin:5px;
+	
+}
+
+.menu{
+	list-style:none;
+	text-decoration:none;
+	margin:15px 10px 10px 100px;
+	
+}
+/*.menu li a{text-decoration:none;
+}*/
+.menu li{
+	float:left;
+	/*border:1px #F00 solid; sacamos bordes a botones menu*/
+	padding: 5px 15px 5px 15px;
+}
+.activo{
+	color:#F00;
+}
+a {
+	color:#333;
+	text-decoration:none;
+}
+a:hover{ /* hover afecta al pasar por encima el cursor */
+	text-decoration:underline;
+	color:#F30;
+/*  instalamos AHORA generador css3 ,  http://css3generator.com/   que sirve transicion cualquier cosa, color tamaño pocision, etc */
+	-webkit-transition: all 300ms ease-in-out;
+-moz-transition: all 300ms ease-in-out;
+-ms-transition: all 300ms ease-in-out;
+-o-transition: all 300ms ease-in-out;
+transition: all 300ms ease-in-out;
+}
+.menu {
+	/*border:2px #FFFF00 solid;*/
+	float:left;
+	padding:0px;
+}
+.listapaquetes{
+	/*border:1px #FF0000 solid; ( borramos borde rojo  de la lista de paquetes)*/
+	margin:0px;
+	padding:0px;
+	list-style: none;
+}
+.items-paquetes{
+	width:300px;
+	height:250px;
+	float:left;
+	/*border:1px #00CC00 solid; ( se borra borde verde)*/ 
+}
+.paquete1{
+	margin:0px 20px 10px 10px;
+}
+.paquete2{
+	margin:0px 0px 10px 0px;
+}
+.paquete3{
+	margin:0px 0px 10px 20px;
+}
+h5{
+	margin:0px 0px 5px 0px;
+}
+.bajo-paquetes{
+	margin:10px
+}
+.videos{
+	/*border:1px #FF0000 solid; sacamos color de videos)*/
+	margin:0px;
+	padding:10px;
+	list-style: none;
+	float:left;
+}
+.items-video{
+	width:499px;
+	height:250px;
+	float:left;
+	/*border:1px #00CC00 solid;(sacampos borde a todo el envoltorio video)*/
+	list-style: none;
+}
+.descripcion-video{
+	width:430px;
+	height:250px;
+	float:left;
+	/*border:1px #00CC00 solid;*/
+	list-style:none;
+	margin:0px 0px 0px 5px;
+}
+.name-video{
+	margin:10px;
+}
+
+.items-paquetes p {
+	padding:0px 10px 10px 10px;
+}
+.envoltorio-color{
+	background-color:#FFF;
+	float:left;
+}
+.descripcion-video p{
+	margin:10px;
+}
+.descripcion-video a{
+	margin:10px;
+}
+.footer{
+	width:960px;
+	height:60px;
+	/*border:1px #F00 solid;*/
+	background-color:#CCC;
+	
+	float:left;
+}
+.datos{
+	width:450px;
+	height:56px;
+	/*border:1px #090 solid;*/
+	float:left;
+	margin:0px 0px 0px 10px;
+	font-weight:bold;
+}
+.datos p{
+	line-height:25px;
+	margin-top:5px;
+}
+.footer .redes{
+	margin-top:17px;
+}
+
+.img-nosotros{
+	margin:1px 0px 1px 10px;
+	float:left;
+}
+.descripcion-nos{
+	margin-left:10px;
+	float:left;
+	width:480px;
+}
+.descripcion-nos p{
+	text-align:justify
+}
+.img-cruceservi{
+	margin:5px 10px 5px 10px;
+}
+.Lista-servicios{
+	width:auto;
+	height:300px;
+	/*border:1px #F00 solid;*/
+}
+.lista-izquierda{
+	float:left;
+	margin:15px 0px 0px 60px;
+}
+.lista-derecha{
+	float:right;
+	margin:15px 60px 0px 0px;
+}
+.lista-derecha, .lista-izquierda{
+	list-style:none;
+    padding:0px;
+}
+.lista-derecha li, .lista-izquierda li{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:14px;
+	line-height:30px;
+	background-image:url(../img/check-icon.png);
+	background-repeat:no-repeat;
+	background-size:20px;
+	padding:0px 0px 0px 30px;
+	background-position:6px 4px;
+}
+.Lista-servicios h1{
+	text-decoration:underline;
+}
+.contenido-servicios{
+	float:left;
+	margin:5px 0px 5px 0px;
+}
+.servicios{
+	float:left;
+	margin-left:20px;
+    width:460px;
+}
+.servicios p{
+	text-align:justify;
+}
+.formulario{
+	width:500px;
+	height:auto;
+	float:left;
+	border:#999 1px solid;
+	margin:0px 15px 10px 15px;
+	padding:5px;	
+}
+.contactos{
+    width:350px;
+	height:auto;
+	float:left;
+	border:#999 1px solid;	
+}
+.contactos ul{
+	list-style:none;
+}
+.contactos ul li{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#003;
+	margin:5px 0px 5px 5px;
+}
+.iconos{
+	float:left;
+	margin:0px 10px 5px 0px;
+}
+.contenedor-principal{
+	width:100%;
+	height:500px;
+	float:left;
+	border:1px #F00 solid;
+	}
+.menu-lateral{
+	width:210px;
+	height:300px;
+	float:left;
+	border:1px #00F solid;
+}
+.contenido-negocio{
+	width:690px;
+	height:600px;
+	float:right;
+	border:1px #FF0 solid;
+}
+.productos{
+	padding-left:20px;
+	
+}
+.productos li{
+	width:100%;
+	height:30px;
+	border:1px #00FF00 solid;
+	list-style:none;
+	font-size:18px;
+	text-align:center;
+}
+.promociones{
+	padding-left:0px;
+}
+.promociones li{
+	width:180px;
+	height:250px;
+	border:1px #00FF00 solid;
+	list-style:none;
+	float:left;
+	margin:10px;
+	
+}
+		
+/*Estilo Formularios*/
+#contact p, label, legend { font: 1.5em "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif; }
+
+#contact h1 { margin: 10px 0 10px; font-size: 24px; color: #333333; }
+#contact hr { color: inherit; height: 0; margin: 6px 0 6px 0; padding: 0; border: 1px solid #d9d9d9; border-style: none none solid; }
+
+#contact { display: block; width: 470px; background-color: #FFF; -webkit-border-radius:5px;  }
+
+/* Form style */
+
+#contact label { display: inline-block; height: 26px; line-height: 26px; width: 150px; font-size: 21px; -webkit-border-radius:5px; }
+#contact input, textarea, select { width: 280px; margin: 0; padding: 5px; color: #666; background: #f5f5f5; border: 1px solid #ccc; margin: 5px 0; font:21px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif; webkit-border-radius:5px; }
+#contact input:focus, textarea:focus, select:focus { border: 1px solid #999; background-color: #fff; color:#333; }
+#contact input.submit { width: 85px; cursor: pointer; border: 1px solid #222; background:#333; color:#fff; margin:0px 0px 0px 50px; }
+#contact input.submit:hover { background:#444; }
+#contact input[type="submit"][disabled] { background:#888; }
+#contact fieldset { padding:20px; border:1px solid #eee; -webkit-border-radius:5px; -moz-border-radius:5px; }
+#contact legend { padding:7px 10px; font-weight:bold; color:#000; border:1px solid #eee; -webkit-border-radius:5px; -moz-border-radius:5px; margin-bottom:0 !important; margin-bottom:20px; }
+
+#contact span.required{ font-size: 13px; color: #ff0000; } /* Select the colour of the * if the field is required. */
+
+#message { margin: 10px 0; padding: 0; }
+
+.error_message { display: block; height: 22px; line-height: 22px; background: #FBE3E4 url('../assets/error.gif') no-repeat 10px center; padding: 3px 10px 3px 35px; color:#8a1f11;border: 1px solid #FBC2C4; -webkit-border-radius:5px; }
+
+.loader { padding: 0 10px; }
+
+#contact #success_page h1 { background: url('../assets/success.gif') left no-repeat; padding-left:22px; }
+
+acronym { border-bottom:1px dotted #ccc; }
+
+#contact p{
+	margin:5px;
+}
+.suma{
+	width:115px !important;
+	
+}
+
